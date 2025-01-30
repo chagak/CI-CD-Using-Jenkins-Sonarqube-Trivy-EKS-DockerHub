@@ -17,6 +17,7 @@ install jenkins docker
  use the jenkins master ip:8080 to open the jenkins and add jenkins agent to the node
  # Integrate Maven to Jenkins
  # Add Github credentials to Jenkins
+ # Create Jenkinsfile for CI jobs
 
 # sonarque
 # TO change the hostname
