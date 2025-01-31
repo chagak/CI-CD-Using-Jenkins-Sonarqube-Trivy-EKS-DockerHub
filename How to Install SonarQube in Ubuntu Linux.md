@@ -3,7 +3,7 @@
 Virtual Machine running Ubuntu 22.04 or newer
 ## Install Postgresql 15
 ```
-sudo apt update
+sudo apt update -y
 sudo apt upgrade
 
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
