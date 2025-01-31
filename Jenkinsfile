@@ -23,7 +23,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/chagak/register-app-for-jenkins-maven-sonar.git'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/chagak/CI-CD-Using-Jenkins-Sonarqube-Trivy-EKS-DockerHub.git'
                 }
         }
 
