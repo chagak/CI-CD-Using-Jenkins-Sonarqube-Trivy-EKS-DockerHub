@@ -68,10 +68,10 @@ sudo reboot
 ```
 ## Install Sonarqube 
 ```
-sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.0.65466.zip
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.1.0.102122.zip
 sudo apt install unzip
-sudo unzip sonarqube-9.9.0.65466.zip -d /opt
-sudo mv /opt/sonarqube-9.9.0.65466 /opt/sonarqube
+sudo unzip sonarqube-25.1.0.102122.zip -d /opt
+sudo mv /opt/sonarqube-25.1.0.102122 /opt/sonarqube
 sudo groupadd sonar
 sudo useradd -c "user to run SonarQube" -d /opt/sonarqube -g sonar sonar
 sudo chown sonar:sonar /opt/sonarqube -R
